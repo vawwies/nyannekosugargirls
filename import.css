@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-500.woff2') format('woff2'), /* Modern Browsers */
+         url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-500.woff) format('woff'); /* Older Browsers */
+    font-weight: 500; /* Normal */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-600.woff2') format('woff2'), /* Modern Browsers */
+         url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-600.woff') format('woff'); /* Older Browsers */
+    font-weight: 600; /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ginto Nord';
+    src: url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-700.woff2') format('woff2'), /* Modern Browsers */
+         url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-700.woff') format('woff'); /* Older Browsers */
+    font-weight: 700; /* Extra Bold */
+    font-style: normal;
+}
