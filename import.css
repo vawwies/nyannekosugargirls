@@ -1,34 +1,37 @@
 /* Import Ginto font */
 @font-face {
   font-family: 'Ginto';
-  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Regular.woff2') format('woff2'),
-       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Regular.woff') format('woff');
-  font-weight: normal;
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-300.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Ginto';
-  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Bold.woff2') format('woff2'),
-       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Bold.woff') format('woff');
-  font-weight: bold;
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-400.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Ginto';
-  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Italic.woff2') format('woff2'),
-       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-500.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'Ginto';
-  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-BoldItalic.woff2') format('woff2'),
-       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-600.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ginto';
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* Apply Ginto font to Discord */
