@@ -34,7 +34,7 @@
   font-style: normal;
 }
 
-/* Apply Ginto font to Discord */
-body, .message {
+/* Apply Ginto font to all elements on Discord */
+* {
   font-family: 'Ginto', sans-serif !important;
 }
