@@ -1,23 +1,37 @@
+/* Import Ginto font */
 @font-face {
-    font-family: 'Ginto Nord';
-    src: url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-500.woff2') format('woff2'), /* Modern Browsers */
-         url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-500.woff) format('woff'); /* Older Browsers */
-    font-weight: 500; /* Normal */
-    font-style: normal;
+  font-family: 'Ginto';
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Regular.woff2') format('woff2'),
+       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Ginto Nord';
-    src: url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-600.woff2') format('woff2'), /* Modern Browsers */
-         url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-600.woff') format('woff'); /* Older Browsers */
-    font-weight: 600; /* Bold */
-    font-style: normal;
+  font-family: 'Ginto';
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Bold.woff2') format('woff2'),
+       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Ginto Nord';
-    src: url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-700.woff2') format('woff2'), /* Modern Browsers */
-         url('https://github.com/vawwies/nyannekosugargirls/ginto-nord/ginto-nord-700.woff') format('woff'); /* Older Browsers */
-    font-weight: 700; /* Extra Bold */
-    font-style: normal;
+  font-family: 'Ginto';
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Italic.woff2') format('woff2'),
+       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Ginto';
+  src: url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-BoldItalic.woff2') format('woff2'),
+       url('https://github.com/vawwies/nyannekosugargirls/raw/main/ginto/Ginto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Apply Ginto font to Discord */
+body, .message {
+  font-family: 'Ginto', sans-serif !important;
 }
