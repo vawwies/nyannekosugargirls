@@ -1,4 +1,3 @@
-/* Import Ginto font */
 @font-face {
   font-family: 'Ginto';
   src: url('https://cdn.jsdelivr.net/gh/vawwies/nyannekosugargirls/ginto/woff/Ginto-300.woff') format('woff');
@@ -34,7 +33,6 @@
   font-style: normal;
 }
 
-/* Apply Ginto font to all elements on Discord */
 * {
   font-family: 'Ginto', sans-serif !important;
 }
